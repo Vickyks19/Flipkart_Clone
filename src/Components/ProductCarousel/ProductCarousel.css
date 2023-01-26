@@ -1,0 +1,39 @@
+Category_Carousel {
+  width: 100%;
+  height: 366px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.CategoryCarousel_left {
+  width: 18%;
+  text-align: center;
+  padding: 10% 10px 10px 10px;
+}
+
+.CategoryCarousel_title {
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+.CategoryCarousel_btn {
+  background: rgb(32, 81, 245);
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  color: white;
+  font-weight: 300;
+  border-radius: 2px;
+  border: 2px solid rg(57, 57, 247);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.CategoryCarousel_right {
+  background: white;
+  width: calc(100% -17%);
+  height: 366px;
+  position: relative;
+}
